@@ -14,7 +14,7 @@ urlpatterns = [
     path('contact/', views.contact, name='contact'),  # ✅ FIXED
 
     path('home/', views.home, name='home'),
-    path('event/<int:event_id>/register/', views.register_event, name='register_event'),
+   # path('event/<int:event_id>/register/', views.register_event, name='register_event'),
     path('registrations/<int:event_id>/', views.event_registrations, name='event_registrations'),
 
     path('admin_dashboard/', views.admin_dashboard, name='admin_dashboard'),
