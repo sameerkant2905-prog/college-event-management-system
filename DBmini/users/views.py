@@ -16,6 +16,9 @@ def home(request):
 def contact(request):
     return render(request, 'contact.html')
 
+def register_event(request, event_id):
+    return render(request, 'register_event.html')
+
 
 # 🟢 REGISTER
 def register(request):
